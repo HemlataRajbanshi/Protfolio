@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.home{
+    width: 100%;
+    /* padding: 0.5%; */
+    display: flex;
+    /* justify-content: end; */
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color: black; */
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 11vh;
+    align-items: center;
+    z-index: 10;
+    position: fixed;
+    background-color: black;
+}
+.logo{
+    height: 9vh;
+    margin-right: 90vh;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 100px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff; 
+    /* align-items: end; */
+}
+
+#intro{
+    /* background-color: whitesmoke; */
+    color: black;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    padding-top: 35vh;
+    text-align: center;
+    line-height: 7vh;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#intro h1{
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+#intro h1:hover{
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+}
+
+#intro h3{
+    font-size: 30px;
+}
+
+.intropic{
+    width: auto;
+    height: 40vh;
+    border: 1px;
+    border-radius: 100%;
+}
+
+#intro span a{
+    color: black;
+    font-size: large;
+}
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+@media (min-aspect-ratio: 16/9){
+    .video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+#Me{
+    /* margin-top: 0px; */
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(236, 231, 231);
+}
+
+.aboutme{
+    font-size: 20px;
+    padding-top: 40vh;
+    /* top: 40vh; */
+    text-align:center;
+    /* font-family:cursive; */
+    font-family: 'Poppins', sans-serif;
+    color: black;
+
+}
+
+#skill{
+    padding: 40vh;
+    font-size: 20px;
+    height: 100vh;
+    text-align: justify;
+}
+
+#skill p{
+    font-size: 10vh;
+}
+
+/* #skill i{
+    font-size: xx-large;
+    text-indent: 10px;
+    color: black;
+} */
